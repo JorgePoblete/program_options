@@ -1,2 +1,2 @@
 # program_options
-"--variable value" or "-v value" for c++
+"--variable value" or "-v value", etc for c++
