@@ -25,6 +25,11 @@ void Program_options::add_option(std::string option,int type)
 {
     this->options[option] = type;
 }
+void Program_options::add_option(std::string option, std::string default_value, int type)
+{
+    this->options[option] = type;
+    this->values[option] = default_value;
+}
 bool Program_options::is_set(std::string option){
     if (options.find(option) != options.end())
     {

@@ -9,8 +9,9 @@ int main(int argc, char** argv){
     //add the required options and specify if the value
     //of that option will be data or if its just a flag option
     //data options are like "-value 1234"
+    //the default_value are optional
     //flags options are like "-flag", if the option appears in the argv its value is true
-    po.add_option("-i",po.type_data);
+    po.add_option("-i","69",po.type_data);
     po.add_option("-d",po.type_data);
     po.add_option("-s",po.type_data);
     po.add_option("-b",po.type_flag);
